@@ -12,6 +12,11 @@ Repository Contents
 -------------------
 * **/Firmware** - Example Arduino sketch to use with this board 
 * **/Hardware** - All Eagle design files (.brd, .sch)
+* **/Production** - Test bed files and production panel files
+
+Version History
+---------------
+* [Version 1.4](https://www.sparkfun.com/products/11040)
 
 
 License Information
