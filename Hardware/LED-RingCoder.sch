@@ -7383,6 +7383,166 @@ thin small outline package</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Passives">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="1X02">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="SJ_2S">
+<description>Small solder jumper with big paste layer so it will short during reflow.</description>
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
+<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
+</package>
+<package name="1X02_LOCK">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-0.1778" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.7178" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
+<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
+</package>
+<package name="SJ_2S-NO">
+<description>Small solder jumper with no paste layer so it will open after reflow.</description>
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SJ_2S-NO-NS">
+<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="JUMPER-2">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-2" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;Jumper&lt;/b&gt;
+Basic 0.1" spaced jumper. Use with breakaway headers.</description>
+<gates>
+<gate name="A" symbol="JUMPER-2" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="1X02">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD-NC" package="SJ_2S">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH_LOCK" package="1X02_LOCK">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD-NO" package="SJ_2S-NO">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD-NO-NS" package="SJ_2S-NO-NS">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7443,28 +7603,30 @@ thin small outline package</description>
 <part name="R20" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
+<part name="JP7" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NC"/>
+<part name="JP10" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NC"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="104.14" y1="167.64" x2="129.54" y2="167.64" width="0.2032" layer="97"/>
+<wire x1="101.6" y1="167.64" x2="127" y2="167.64" width="0.2032" layer="97"/>
 <text x="171.958" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
-<text x="104.14" y="165.1" size="1.778" layer="97">Vf-typ = 2V</text>
-<text x="104.14" y="162.56" size="1.778" layer="97">@ 300 Ohm, 5V: 10mA</text>
-<text x="104.14" y="167.64" size="1.778" layer="97">LED Current:</text>
-<text x="187.96" y="50.8" size="1.778" layer="97">Red: Vf-typ = 2V</text>
-<text x="187.96" y="48.26" size="1.778" layer="97">Green: Vf-typ = 3.3V</text>
-<text x="187.96" y="45.72" size="1.778" layer="97">Blue: Vf-typ = 3.3V</text>
-<text x="104.14" y="160.02" size="1.778" layer="97">@ 300 Ohm, 3.3V: 4.3mA</text>
-<text x="187.96" y="40.64" size="1.778" layer="97">Red: Ityp = 10mA @ 5V</text>
-<text x="187.96" y="38.1" size="1.778" layer="97">Blue/Green: Ityp = 9.4mA</text>
+<text x="101.6" y="165.1" size="1.778" layer="97">Vf-typ = 2V</text>
+<text x="101.6" y="162.56" size="1.778" layer="97">@ 300 Ohm, 5V: 10mA</text>
+<text x="101.6" y="167.64" size="1.778" layer="97">LED Current:</text>
+<text x="7.62" y="15.24" size="1.778" layer="97">Red: Vf-typ = 2V</text>
+<text x="7.62" y="12.7" size="1.778" layer="97">Green: Vf-typ = 3.3V</text>
+<text x="7.62" y="10.16" size="1.778" layer="97">Blue: Vf-typ = 3.3V</text>
+<text x="101.6" y="160.02" size="1.778" layer="97">@ 300 Ohm, 3.3V: 4.3mA</text>
+<text x="7.62" y="5.08" size="1.778" layer="97">Red: Ityp = 10mA @ 5V</text>
+<text x="7.62" y="2.54" size="1.778" layer="97">Blue/Green: Ityp = 9.4mA</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">v1.5</text>
 <text x="174.752" y="6.604" size="2.54" layer="94">Toni Klopfenstein</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="LED1" gate="G$1" x="157.48" y="132.08"/>
+<instance part="LED1" gate="G$1" x="154.94" y="132.08"/>
 <instance part="JP3" gate="G$1" x="243.84" y="30.48"/>
 <instance part="JP4" gate="G$1" x="243.84" y="25.4"/>
 <instance part="JP2" gate="G$1" x="241.3" y="17.78"/>
@@ -7472,8 +7634,8 @@ thin small outline package</description>
 <instance part="IC1" gate="A" x="40.64" y="149.86"/>
 <instance part="P+1" gate="1" x="58.42" y="177.8"/>
 <instance part="GND1" gate="1" x="27.94" y="129.54"/>
-<instance part="GND2" gate="1" x="132.08" y="109.22"/>
-<instance part="GND4" gate="1" x="185.42" y="109.22"/>
+<instance part="GND2" gate="1" x="129.54" y="109.22"/>
+<instance part="GND4" gate="1" x="182.88" y="109.22"/>
 <instance part="IC2" gate="A" x="40.64" y="73.66"/>
 <instance part="P+2" gate="1" x="58.42" y="88.9"/>
 <instance part="GND6" gate="1" x="27.94" y="53.34"/>
@@ -7552,24 +7714,26 @@ thin small outline package</description>
 <attribute name="VALUE" x="72.39" y="39.624" size="1.778" layer="96"/>
 </instance>
 <instance part="JP9" gate="G$1" x="236.22" y="66.04" rot="R180"/>
-<instance part="GND3" gate="1" x="132.08" y="58.42"/>
-<instance part="R17" gate="G$1" x="190.5" y="63.5" smashed="yes">
-<attribute name="NAME" x="189.23" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="189.23" y="59.944" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="116.84" y="60.96"/>
+<instance part="R17" gate="G$1" x="175.26" y="66.04" smashed="yes">
+<attribute name="NAME" x="173.99" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="173.99" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="R18" gate="G$1" x="190.5" y="71.12" smashed="yes">
-<attribute name="NAME" x="189.23" y="72.6186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="189.23" y="67.564" size="1.778" layer="96"/>
+<instance part="R18" gate="G$1" x="175.26" y="73.66" smashed="yes">
+<attribute name="NAME" x="173.99" y="75.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="173.99" y="70.104" size="1.778" layer="96"/>
 </instance>
-<instance part="R19" gate="G$1" x="190.5" y="81.28" smashed="yes">
-<attribute name="NAME" x="189.23" y="82.7786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="189.23" y="77.724" size="1.778" layer="96"/>
+<instance part="R19" gate="G$1" x="175.26" y="83.82" smashed="yes">
+<attribute name="NAME" x="173.99" y="85.3186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="173.99" y="80.264" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="149.86" y="76.2"/>
-<instance part="P+5" gate="1" x="170.18" y="91.44"/>
-<instance part="R20" gate="G$1" x="167.64" y="58.42" rot="R90"/>
-<instance part="GND5" gate="1" x="167.64" y="48.26"/>
+<instance part="U1" gate="G$1" x="134.62" y="78.74"/>
+<instance part="P+5" gate="1" x="154.94" y="93.98"/>
+<instance part="R20" gate="G$1" x="152.4" y="60.96" rot="R90"/>
+<instance part="GND5" gate="1" x="152.4" y="45.72"/>
 <instance part="U$1" gate="G$1" x="148.336" y="6.858"/>
+<instance part="JP7" gate="A" x="208.28" y="144.78" rot="R90"/>
+<instance part="JP10" gate="A" x="208.28" y="129.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7582,21 +7746,21 @@ thin small outline package</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="172.72" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="116.84" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="147.32" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
-<junction x="185.42" y="116.84"/>
+<wire x1="170.18" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="116.84" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="147.32" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<junction x="182.88" y="116.84"/>
 <pinref part="LED1" gate="G$1" pin="COM2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="LED1" gate="G$1" pin="COM1"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="147.32" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="116.84" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
-<junction x="132.08" y="116.84"/>
+<wire x1="139.7" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="147.32" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<junction x="129.54" y="116.84"/>
 <pinref part="LED1" gate="G$1" pin="COM0"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="LED1" gate="G$1" pin="COM3"/>
@@ -7618,8 +7782,8 @@ thin small outline package</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="76.2" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="78.74" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="C"/>
 </segment>
@@ -7629,16 +7793,21 @@ thin small outline package</description>
 <label x="220.98" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="50.8" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="48.26" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP7" gate="A" pin="1"/>
+<wire x1="210.82" y1="144.78" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
+<label x="218.44" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="4" class="0">
 <segment>
-<wire x1="142.24" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="144.78" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="4"/>
-<label x="139.7" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
@@ -7648,9 +7817,9 @@ thin small outline package</description>
 </net>
 <net name="3" class="0">
 <segment>
-<wire x1="142.24" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="3"/>
-<label x="139.7" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
@@ -7660,9 +7829,9 @@ thin small outline package</description>
 </net>
 <net name="2" class="0">
 <segment>
-<wire x1="142.24" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="2"/>
-<label x="139.7" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
@@ -7672,9 +7841,9 @@ thin small outline package</description>
 </net>
 <net name="1" class="0">
 <segment>
-<wire x1="142.24" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="1"/>
-<label x="139.7" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="177.8" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
@@ -7684,9 +7853,9 @@ thin small outline package</description>
 </net>
 <net name="B" class="0">
 <segment>
-<wire x1="134.62" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="B"/>
-<label x="129.54" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="58.42" x2="220.98" y2="58.42" width="0.1524" layer="91"/>
@@ -7696,9 +7865,9 @@ thin small outline package</description>
 </net>
 <net name="A" class="0">
 <segment>
-<wire x1="134.62" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="A"/>
-<label x="129.54" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
@@ -7735,10 +7904,15 @@ thin small outline package</description>
 <pinref part="P+4" gate="1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="86.36" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="88.9" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="P+5" gate="1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="A" pin="1"/>
+<wire x1="210.82" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="218.44" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="QH*" class="0">
@@ -7784,9 +7958,9 @@ thin small outline package</description>
 </net>
 <net name="13" class="0">
 <segment>
-<wire x1="142.24" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="13"/>
-<label x="139.7" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
@@ -7796,9 +7970,9 @@ thin small outline package</description>
 </net>
 <net name="14" class="0">
 <segment>
-<wire x1="142.24" y1="121.92" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="14"/>
-<label x="139.7" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
@@ -7808,9 +7982,9 @@ thin small outline package</description>
 </net>
 <net name="15" class="0">
 <segment>
-<wire x1="142.24" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="15"/>
-<label x="139.7" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
@@ -7820,9 +7994,9 @@ thin small outline package</description>
 </net>
 <net name="16" class="0">
 <segment>
-<wire x1="142.24" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="16"/>
-<label x="139.7" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
@@ -7832,9 +8006,9 @@ thin small outline package</description>
 </net>
 <net name="12" class="0">
 <segment>
-<wire x1="172.72" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="12"/>
-<label x="177.8" y="119.38" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
@@ -7844,9 +8018,9 @@ thin small outline package</description>
 </net>
 <net name="11" class="0">
 <segment>
-<wire x1="172.72" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="121.92" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="11"/>
-<label x="177.8" y="121.92" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="81.28" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
@@ -7856,9 +8030,9 @@ thin small outline package</description>
 </net>
 <net name="10" class="0">
 <segment>
-<wire x1="172.72" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="10"/>
-<label x="177.8" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
@@ -7868,9 +8042,9 @@ thin small outline package</description>
 </net>
 <net name="9" class="0">
 <segment>
-<wire x1="172.72" y1="129.54" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="9"/>
-<label x="177.8" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
@@ -7880,9 +8054,9 @@ thin small outline package</description>
 </net>
 <net name="8" class="0">
 <segment>
-<wire x1="172.72" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="8"/>
-<label x="177.8" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
@@ -7892,9 +8066,9 @@ thin small outline package</description>
 </net>
 <net name="7" class="0">
 <segment>
-<wire x1="172.72" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="7"/>
-<label x="177.8" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
@@ -7904,9 +8078,9 @@ thin small outline package</description>
 </net>
 <net name="6" class="0">
 <segment>
-<wire x1="172.72" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="6"/>
-<label x="177.8" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
@@ -7916,9 +8090,9 @@ thin small outline package</description>
 </net>
 <net name="5" class="0">
 <segment>
-<wire x1="172.72" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="5"/>
-<label x="177.8" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="175.26" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
@@ -7959,6 +8133,11 @@ thin small outline package</description>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <label x="223.52" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP10" gate="A" pin="2"/>
+<wire x1="210.82" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
+<label x="218.44" y="132.08" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="EN" class="0">
 <segment>
@@ -7976,16 +8155,21 @@ thin small outline package</description>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <label x="223.52" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP7" gate="A" pin="2"/>
+<wire x1="210.82" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
+<label x="218.44" y="147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWITCH" class="0">
 <segment>
-<wire x1="165.1" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="63.5" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
-<junction x="167.64" y="66.04"/>
+<wire x1="149.86" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="66.04" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<junction x="152.4" y="68.58"/>
 <pinref part="U1" gate="G$1" pin="SW"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<label x="172.72" y="66.04" size="1.27" layer="95" xref="yes"/>
+<label x="157.48" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
@@ -8135,9 +8319,9 @@ thin small outline package</description>
 </net>
 <net name="RED" class="0">
 <segment>
-<wire x1="195.58" y1="81.28" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<label x="200.66" y="81.28" size="1.27" layer="95" xref="yes"/>
+<label x="185.42" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
@@ -8147,9 +8331,9 @@ thin small outline package</description>
 </net>
 <net name="BLUE" class="0">
 <segment>
-<wire x1="195.58" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="66.04" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<label x="200.66" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="185.42" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
@@ -8159,9 +8343,9 @@ thin small outline package</description>
 </net>
 <net name="GREEN" class="0">
 <segment>
-<wire x1="195.58" y1="71.12" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<label x="200.66" y="71.12" size="1.27" layer="95" xref="yes"/>
+<label x="185.42" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="68.58" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
@@ -8171,25 +8355,25 @@ thin small outline package</description>
 </net>
 <net name="LED-R" class="0">
 <segment>
-<wire x1="165.1" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="73.66" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="81.28" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="76.2" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="R"/>
 </segment>
 </net>
 <net name="LED-G" class="0">
 <segment>
-<wire x1="165.1" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="LED-B" class="0">
 <segment>
-<wire x1="165.1" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="68.58" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="71.12" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="BL"/>
 </segment>
