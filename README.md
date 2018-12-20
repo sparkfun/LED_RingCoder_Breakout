@@ -14,6 +14,17 @@ Repository Contents
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/Production** - Test bed files and production panel files
 
+Product Versions
+----------------
+
+Compatible with the following rotary encoder and LED bar graphs: 
+
+* [COM-10982](https://www.sparkfun.com/products/10982)- RGB rotary encoder-illuminated.
+* [COM-10591](https://www.sparkfun.com/products/retired/10591)- Circular LED Bargraphs - Green
+* [COM-10592](https://www.sparkfun.com/products/retired/10592)- Circular LED Bargraphs - Blue
+* [COM-10593](https://www.sparkfun.com/products/retired/10593)- Circular LED Bargraphs - Yellow
+* [COM-10595](https://www.sparkfun.com/products/retired/10595)- Circular LED Bargraphs - Red
+
 Version History
 ---------------
 * [Version 1.4](https://www.sparkfun.com/products/11040)
